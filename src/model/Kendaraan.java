@@ -9,5 +9,12 @@ package model;
  * @author stevedownes
  */
 public class Kendaraan {
+    Kendaraan(String platNomor, String jenis){
+        this.platNomor = platNomor;
+        this.jenis = jenis;
+    }
     
+    public void tampilInfo(){
+        
+    }
 }
