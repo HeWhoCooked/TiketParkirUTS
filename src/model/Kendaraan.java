@@ -15,6 +15,7 @@ public class Kendaraan {
     }
     
     public void tampilInfo(){
-        
+        System.out.println("Jenis Kendaraan: " + jenis);
+        System.out.println("Nomor Kendaraan: " + platNomor);
     }
 }
