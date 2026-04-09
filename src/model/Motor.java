@@ -9,5 +9,17 @@ package model;
  * @author stevedownes
  */
 public class Motor extends Kendaraan{
-    
+    public Motor(String platNomor) {
+        super(platNomor);
+    }
+
+    @Override
+    public String getJenis() {
+        return "Motor";
+    }
+
+    @Override
+    public int getTarifPerJam() {
+        return 2000;
+    }
 }

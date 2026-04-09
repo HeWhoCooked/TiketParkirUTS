@@ -8,14 +8,17 @@ package model;
  *
  * @author stevedownes
  */
-public class Kendaraan {
-    Kendaraan(String platNomor, String jenis){
+public abstract class Kendaraan {
+    private String platNomor;
+
+    public Kendaraan(String platNomor) {
         this.platNomor = platNomor;
-        this.jenis = jenis;
     }
-    
-    public void tampilInfo(){
-        System.out.println("Jenis Kendaraan: " + jenis);
-        System.out.println("Nomor Kendaraan: " + platNomor);
+
+    public String getPlatNomor() {
+        return platNomor;
     }
+
+    public abstract String getJenis();
+    public abstract int getTarifPerJam();
 }

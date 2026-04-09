@@ -9,5 +9,17 @@ package model;
  * @author stevedownes
  */
 public class Mobil extends Kendaraan {
-    
+    public Mobil(String platNomor) {
+        super(platNomor);
+    }
+
+    @Override
+    public String getJenis() {
+        return "Mobil";
+    }
+
+    @Override
+    public int getTarifPerJam() {
+        return 5000;
+    }
 }
