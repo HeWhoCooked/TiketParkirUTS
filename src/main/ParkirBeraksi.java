@@ -12,8 +12,8 @@ import java.util.Scanner;
  * @author stevedownes
  */
 public class ParkirBeraksi {
-    public static viod main(String[] args) {
-        PerkirService service = new ParkirService();
+    public static void main(String[] args) {
+        ParkirService service = new ParkirService();
         Transaksi transaksi = new Transaksi();
         Scanner input = new Scanner(System.in);
         boolean berjalan = true;
